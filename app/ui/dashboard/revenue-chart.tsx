@@ -37,7 +37,7 @@ export default async function RevenueChart({
             style={{ height: `${chartHeight}px` }}
           >
             
-            {YAxisLabels.map((label) => (
+            {yAxisLabels.map((label) => (
               <p key={label}>{label}</p>
             ))}
           </div>
